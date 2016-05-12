@@ -324,99 +324,99 @@ This command will send text to [group_id]
 
 ]],
     help_text = [[
-Commands list :
+Tele Tak Supergroup Command list
 
 !kick [username|id]
-You can also do it by reply
+You can also do it by reply   اخراج فرد از گروه
 
 !ban [ username|id]
-You can also do it by reply
+You can also do it by reply   اخراج کامل فرد از گروه
 
 !unban [id]
-You can also do it by reply
+You can also do it by reply    برطرف کردن / درآوردن از لیست اخراج
 
 !who
-Members list
+Members list           لیست اعضا
 
 !modlist
-Moderators list
+Moderators list           لیست اسامی کنترل کننده ها  
 
-!promote [username]
+!promote [username]           درجه دادن / اضافه کردن شخص به کنترل کننده
 Promote someone
 
-!demote [username]
+!demote [username]            برداشتن کنترل کننده از مقام
 Demote someone
 
-!kickme
+!kickme                       خارج شدن از گروه
 Will kick user
 
-!about
+!about                        درباره گروه
 Group description
 
-!setphoto
+!setphoto                     تنظیم عکس و قفل آن
 Set and locks group photo
 
-!setname [name]
+!setname [name]              تنظیم اسم گروه 
 Set group name
 
-!rules
+!rules                  قوانین گروه
 Group rules
 
-!id
+!id                      مشخصه گروه
 Return group id or user id
 
-!help
+!help                    دریافت لیست دستورات
 Get commands list
 
-!lock [member|name|bots|leave] 
+!lock [member|name|bots|leave]        قفل اعضا |اسم|ربات|رفتن
 Locks [member|name|bots|leaveing] 
 
-!unlock [member|name|bots|leave]
+!unlock [member|name|bots|leave]      باز کردن اعضا |اسم|ربات|رفتن
 Unlocks [member|name|bots|leaving]
 
-!set rules [text]
+!set rules [text]             تنظیم قانون گروه
 Set [text] as rules
 
-!set about [text]
+!set about [text]             تنظیم مشخصه گروه
 Set [text] as about
 
-!settings
+!settings                     تنظیمات
 Returns group settings
 
-!newlink
+!newlink                      لینک جدید
 Create/revoke your group link
 
-!link
+!link                         دریافت لینک
 Returns group link
 
-!owner
+!owner                        مدیر اصلی گروه
 Returns group owner id
 
-!setowner [id]
+!setowner [id]                تنظیم مدیر اصلی گروه
 Will set id as owner
 
-!setflood [value]
+!setflood [value]              تنظیم میزان حساسیت چت 
 Set [value] as flood sensitivity
 
-!stats
+!stats                         گزارش
 Simple message statistics
 
-!save [value] [text]
+!save [value] [text]            ذخیره | متن یا مقدار عدد
 Save [text] as [value]
 
-!get [value]
+!get [value]                    دریافت قوانین و مشخصه گروه
 Returns text of [value]
 
-!clean [modlist|rules|about]
+!clean [modlist|rules|about]      پاک کردن کنترل کنندگان | قوانین | مشخصه
 Will clear [modlist|rules|about] and set it to nil
 
-!res [username]
+!res [username]                   دریافت مشخصه فرد گروه
 Returns user id
 
-!log
+!log                              مشخصه هوشمند
 Will return group logs
 
-!banlist
+!banlist                          لیست اسامی اخراج شده
 Will return group ban list
 
 » U can use both "/" and "!" 
@@ -426,6 +426,9 @@ Will return group ban list
 » Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 » Only owner can use res,setowner,promote,demote and log commands
+
+TeleTak Bot Anti spam Jast only Telegram @TeleTak
+TeleTak Team.
 
 ]]
   }
