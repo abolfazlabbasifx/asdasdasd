@@ -482,137 +482,61 @@ will return group ban list
 
 ]],
 	help_text_super =[[
-TeleTak Commands list :
+TeleTak Command help List
 
-!kick [username|id]                      اخراج فرد از گروه
-You can also do it by reply
+!kick [username|id]             | kick user frome group
 
-!ban [ username|id]            اخراج فرد از گروه "بن" کردن
-You can also do it by reply
+!ban  [username|id]             | ban user frome group 
 
-!unban [id]                          برداشتن از لیست اخراج
-You can also do it by reply
+!unban [username|id]            | unban user & remove frome banlist
 
-!who                                        لیست اعضای گروه
-Members list
+!modlist                        | Moderatores group List
 
-!modlist                            لیست کنترل کنندگان گروه
-Moderators list
+!promote [username|id]          | promote to Moderator group "jast owner"
 
-!promote [username]     ارتقاع به ادمین "گروه" فقط مدیر گروه
-Promote someone
+!demote  [username|id]          | demote as Moderator group  " jast owner"
 
-!demote [username]                     برداشتن از مدیریت گروه
-Demote someone
+!kickme  typing "!kickme on GP  | well be leave on the "GP"
 
-!kickme                                         ترک کردن گروه
-Will kick user
+!lock [links,flood,spam,rtl,...]| Lock LINKS,FLOOD,SPAM,RTL,...
 
-!about                                اطلاعات بیشتر وجزئی گروه
-Group description
+!unlock [links,flood,spam,rtl,...]| Unlock LINKS,FLOOD,SPAM,RTL,...
 
-!setphoto                                      تنظیم عکس گروه 
-Set and locks group photo
+!mute [all,chat,photo,gifs]     | typing " !mute all " and Mute thes all < Cilent >
 
-!setname [name]                                تنظیم اسم گروه
-Set group name
+!unmote [all,chat,photo,gifs]   | typing " !unmote all " and unmute thes all 
 
-!rules                                            قوانین گروه
-Group rules
+!settings                       | Settings & Option group 
 
-!id                                                  آیدی گروه
-return group id or user id
+!setrules [Text]                | set rules & cases
 
-!help                                       لیست دستورات ربات
-Returns help text
+!setabout [Text]                | Set about GP
 
-!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]  بستن لینک ها و فلود و ... فقط ادمین گروه
-Lock group settings
-*rtl: Kick user if Right To Left Char. is in name*
+!owner                          | Owner group showdem
 
-!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]  بازکردن لینک ها و فلود و... فقط ادمین گروه
-Unlock group settings
-*rtl: Kick user if Right To Left Char. is in name*
+!setowner                       | set as a owner
 
-!mute [all|audio|gifs|photo|video]  گذاشتن رو حالک سکوت  
-mute group message types
-*If "muted" message type: user is kicked if message type is posted 
+!clean [modlist,rules,about]    | clean modlist,rules,about GP
 
-!unmute [all|audio|gifs|photo|video]  برداشتن از حالت سکوت
-Unmute group message types
-*If "unmuted" message type: user is not kicked if message type is posted 
+!get "rules,about,time,date,... | get informatoin Tec 
 
-!set rules <text>                           تنظیم قوانین گروه
-Set <text> as rules
+!stats                          | history group 
 
-!set about <text>                           تنظیم جزئیات گروه
-Set <text> as about
+!banlist                        | ban list 
 
-!settings                                              تنظیمات
-Returns group settings
+!link                           | group link
 
-!muteslist                                  لیست حالت های سکوت
-Returns mutes for chat
+!newlink                        | creatnew link / revoke last link
 
-!muteuser [username]                   گذاشتن فرد رو حالت سکوت 
-Mute a user in chat
-*user is kicked if they talk
-*only owners can mute | mods and owners can unmute
+!help                           | Supergroup Commands TeleTak
 
-!mutelist                       چیز هایی که در حالت سکوت هستند.
-Returns list of muted users in chat
+!muteuser [username|id]         | well be muted the user
 
-!newlink                                               لینک جدید
-create/revoke your group link
+about plugins Comming Soon ...
 
-!link                                                       لینک
-returns group link
-
-!owner                                                 مدیر اصلی
-returns group owner id
-
-!setowner [id]                    تنظیم به عنوان مدیر اصلی گروه
-Will set id as owner
-
-!setflood [value]                              تنظیم حساسیت گروه
-Set [value] as flood sensitivity
-
-!stats                         پیام مجازی - اتفاقات جاری در گروه
-Simple message statistics
-
-!save [value] <text>  ذخیره مقدار چیزی یا متنی "جهت یاد آوری به مدیر " فقط مدیر گروه
-Save <text> as [value]
-
-!get [value]                         دریافت مقادیر اسپم و هرزنامه
-Returns text of [value]
-
-!clean [modlist|rules|about]   پاکیزه سازی کنترل کننده ها و قوانین و جزئیات
-Will clear [modlist|rules|about] and set it to nil
-
-!res [username]                                         درباره فرد
-returns user id
-"!res @username"
-
-!log                            اتفاقات و دستورات داده شده به ربات
-Returns group logs
-
-!banlist                                   اعضای اخراج شده از گروه
-will return group ban list
-
-**You can use "#", "!", or "/" to begin all commands
-
-
-*Only owner and mods can add bots in group
-
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
-
-TeleTak Team.
-2013.2016 
-MR.codex sudo
-
+Warning : Anyone Copytight "TELETAKBOT" exploits any of the exclusive rights of copyright without the copyright owner's permission commits copyright infringement.
+And Anyone Copyright Not Allowed. Parageranit Copyright on seen "FBI" police.cyberi 
+#Sudo MR.codex
 ]],
   }
   serialize_to_file(config, './data/config.lua')
