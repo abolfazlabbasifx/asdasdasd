@@ -228,11 +228,21 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-	"supergroup",
-	"whitelist",
-	"msg_checks"
+    "supergroup",
+    "whitelist",
+    "msg_checks",
+    "me",
+    "welcome",
+    "plugins",
+    "lock_tag",
+    "lock_url",
+    "echo",
+    "boobs",
+    "addplug",
+    "reload",
+    "whitelist"
     },
-    sudo_users = {219559495,0,tonumber(our_id)},--Sudo users
+    sudo_users = {233848932,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Tele Tak v4
 An advanced administration bot based on TG-CLI written in Lua
@@ -260,43 +270,43 @@ Our channels
 TeleTak Realm  Commands:
 
 !creategroup [Name]
-Create a group     ساخت گروه 
+Create a group                                ساخت گروه 
 
 !createrealm [Name]
-Create a realm     ساخت ریلم
+Create a realm                                ساخت ریلم
 
 !setname [Name]
-Set realm name  تنظیم اسم ریلم
+Set realm name                           تنظیم اسم ریلم
 
 !setabout [group|sgroup] [GroupID] [Text]
-Set a group's about text  تنظیم عناوین کاربردی گروه
+Set a group's about text      تنظیم عناوین کاربردی گروه
 
 !setrules [GroupID] [Text]
-Set a group's rules    تنظیم قوانین گروه
+Set a group's rules                   تنظیم قوانین گروه
 
 !lock [GroupID] [setting]
-Lock a group's setting   بستن آیدی گروه
+Lock a group's setting                  بستن آیدی گروه
 
 !unlock [GroupID] [setting]
-Unlock a group's setting    بازکردن آیدی گروه و تنظیمات
+Unlock a group's setting      بازکردن آیدی گروه و تنظیمات
 
 !settings [group|sgroup] [GroupID]
-Set settings for GroupID    تنظیم داده برای گروه و سوپر گروه وآی دی گروه
+Set settings for GroupID     تنظیم داده برای گروه و سوپر گروه وآی دی گروه
 
 !wholist
-Get a list of members in group/realm   لیست اعضای عضو ریلم
+Get a list of members in group/realm      لیست اعضای عضو ریلم
 
 !who
-Get a file of members in group/realm  لیست اعضای عضو ریلم به صورت تکست
+Get a file of members in group/realm     لیست اعضای عضو ریلم به صورت تکست
 
 !type
-Get group type   فقط مخصوص سودو بات میباشد
+Get group type                      فقط مخصوص سودو بات میباشد
 
 !kill chat [GroupID]
-Kick all memebers and delete group  حذف تمامی افراد از گروه
+Kick all memebers and delete group     حذف تمامی افراد از گروه
 
 !kill realm [RealmID]
-Kick all members and delete realm  از بین بردن ریلم 
+Kick all members and delete realm            از بین بردن ریلم 
 
 !addadmin [id|username]
 Promote an admin by id OR username *Sudo only  تنظیم برای اد کردن ادمین "ربات " فط سودو
@@ -305,26 +315,26 @@ Promote an admin by id OR username *Sudo only  تنظیم برای اد کردن
 Demote an admin by id OR username *Sudo only تنظیم برای برداشتن از ادمین "بات" فقط سودو
 
 !list groups
-Get a list of all groups  لست تمامی گروه هایی که ربات عضو آن است
+Get a list of all groups               لست تمامی گروه هایی که ربات عضو آن است
 
 !list realms
-Get a list of all realms  لیست تمامی ریلم  ها
+Get a list of all realms             لیست تمامی ریلم  ها
 
 !support
-Promote user to support  اضافه کردن فرد به درجه تیم پشتیبانی
+Promote user to support            اضافه کردن فرد به درجه تیم پشتیبانی
 
 !-support
-Demote user from support  برداشتن فرد از تیم پشتیبانی
-
+Demote user from support             برداشتن فرد از تیم پشتیبانی
+ 
 !log
-Get a logfile of current group or realm  فقط مخصوص سدو میباشد
+Get a logfile of current group or realm        فقط مخصوص سدو میباشد
 
-!broadcast [text]      پخش کردن پیام از طرف تیم پشتیبانی
+!broadcast [text]            پخش کردن پیام از طرف تیم پشتیبانی
 !broadcast Hello !
 Send text to all groups
 Only sudo users can run this command
 
-!bc [group_id] [text]  فقط مخصوص سودو میباشد
+!bc [group_id] [text]            فقط مخصوص سودو میباشد
 !bc 123456789 Hello !
 This command will send text to [group_id]
 
@@ -344,44 +354,44 @@ TeleTak Team .
 ]],
     help_text = [[
 TeleTak Commands list :
-
-!kick [username|id]  اخراج فرد از گروه
+  
+!kick [username|id]                           اخراج فرد از گروه
 You can also do it by reply
 
-!ban [ username|id]  اخراج فرد از گروه "بن" کردن
+!ban [ username|id]                 اخراج فرد از گروه "بن" کردن
 You can also do it by reply
 
-!unban [id]  برداشتن از لیست اخراج
+!unban [id]                               برداشتن از لیست اخراج
 You can also do it by reply
 
-!who   لیست اعضای گروه
+!who                                            لیست اعضای گروه
 Members list
 
-!modlist  لیست کنترل کنندگان گروه
+!modlist                                لیست کنترل کنندگان گروه
 Moderators list
 
-!promote [username]  ارتقاع به ادمین "گروه" فقط مدیر گروه
+!promote [username]         ارتقاع به ادمین "گروه" فقط مدیر گروه
 Promote someone
 
-!demote [username]   برداشتن از مدیریت گروه
+!demote [username]                        برداشتن از مدیریت گروه
 Demote someone
 
-!kickme   ترک کردن گروه
+!kickme                                            ترک کردن گروه
 Will kick user
 
-!about    اطلاعات بیشتر وجزئی گروه
+!about                                    اطلاعات بیشتر وجزئی گروه
 Group description
 
-!setphoto  تنظیم عکس گروه 
+!setphoto                                         تنظیم عکس گروه 
 Set and locks group photo
 
-!setname [name]  تنظیم اسم گروه
+!setname [name]                                   تنظیم اسم گروه
 Set group name
 
-!rules   قوانین گروه
+!rules                                               قوانین گروه
 Group rules
 
-!id  آیدی گروه
+!id                                                    آیدی گروه
 return group id or user id
 
 !help  لیست دستورات ربات
@@ -395,38 +405,38 @@ Lock group settings
 Unlock group settings
 *rtl: Kick user if Right To Left Char. is in name*
 
-!mute [all|audio|gifs|photo|video]  گذاشتن رو حالک سکوت  
+!mute [all|audio|gifs|photo|video]               گذاشتن رو حالک سکوت  
 mute group message types
 *If "muted" message type: user is kicked if message type is posted 
 
-!unmute [all|audio|gifs|photo|video]  برداشتن از حالت سکوت
+!unmute [all|audio|gifs|photo|video]             برداشتن از حالت سکوت
 Unmute group message types
 *If "unmuted" message type: user is not kicked if message type is posted 
 
-!set rules <text>  تنظیم قوانین گروه
+!set rules <text>                                  تنظیم قوانین گروه
 Set <text> as rules
 
-!set about <text>   تنظیم جزئیات گروه
+!set about <text>                                   تنظیم جزئیات گروه
 Set <text> as about
 
-!settings   تنظیمات
+!settings                                                  تنظیمات
 Returns group settings
 
-!muteslist  لیست حالت های سکوت
+!muteslist                                          لیست حالت های سکوت
 Returns mutes for chat
 
-!muteuser [username]  گذاشتن فرد رو حالت سکوت 
+!muteuser [username]                           گذاشتن فرد رو حالت سکوت 
 Mute a user in chat
 *user is kicked if they talk
 *only owners can mute | mods and owners can unmute
 
-!mutelist  چیز هایی که در حالت سکوت هستند.
+!mutelist                                   چیز هایی که در حالت سکوت هستند.
 Returns list of muted users in chat
 
-!newlink  لینک جدید
+!newlink                                                       لینک جدید
 create/revoke your group link
 
-!link  لینک
+!link                                                               لینک
 returns group link
 
 !owner  مدیر اصلی
@@ -474,46 +484,46 @@ will return group ban list
 	help_text_super =[[
 TeleTak Commands list :
 
-!kick [username|id]  اخراج فرد از گروه
+!kick [username|id]                      اخراج فرد از گروه
 You can also do it by reply
 
-!ban [ username|id]  اخراج فرد از گروه "بن" کردن
+!ban [ username|id]            اخراج فرد از گروه "بن" کردن
 You can also do it by reply
 
-!unban [id]  برداشتن از لیست اخراج
+!unban [id]                          برداشتن از لیست اخراج
 You can also do it by reply
 
-!who   لیست اعضای گروه
+!who                                        لیست اعضای گروه
 Members list
 
-!modlist  لیست کنترل کنندگان گروه
+!modlist                            لیست کنترل کنندگان گروه
 Moderators list
 
-!promote [username]  ارتقاع به ادمین "گروه" فقط مدیر گروه
+!promote [username]     ارتقاع به ادمین "گروه" فقط مدیر گروه
 Promote someone
 
-!demote [username]   برداشتن از مدیریت گروه
+!demote [username]                     برداشتن از مدیریت گروه
 Demote someone
 
-!kickme   ترک کردن گروه
+!kickme                                         ترک کردن گروه
 Will kick user
 
-!about    اطلاعات بیشتر وجزئی گروه
+!about                                اطلاعات بیشتر وجزئی گروه
 Group description
 
-!setphoto  تنظیم عکس گروه 
+!setphoto                                      تنظیم عکس گروه 
 Set and locks group photo
 
-!setname [name]  تنظیم اسم گروه
+!setname [name]                                تنظیم اسم گروه
 Set group name
 
-!rules   قوانین گروه
+!rules                                            قوانین گروه
 Group rules
 
-!id  آیدی گروه
+!id                                                  آیدی گروه
 return group id or user id
 
-!help  لیست دستورات ربات
+!help                                       لیست دستورات ربات
 Returns help text
 
 !lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]  بستن لینک ها و فلود و ... فقط ادمین گروه
@@ -532,61 +542,61 @@ mute group message types
 Unmute group message types
 *If "unmuted" message type: user is not kicked if message type is posted 
 
-!set rules <text>  تنظیم قوانین گروه
+!set rules <text>                           تنظیم قوانین گروه
 Set <text> as rules
 
-!set about <text>   تنظیم جزئیات گروه
+!set about <text>                           تنظیم جزئیات گروه
 Set <text> as about
 
-!settings   تنظیمات
+!settings                                              تنظیمات
 Returns group settings
 
-!muteslist  لیست حالت های سکوت
+!muteslist                                  لیست حالت های سکوت
 Returns mutes for chat
 
-!muteuser [username]  گذاشتن فرد رو حالت سکوت 
+!muteuser [username]                   گذاشتن فرد رو حالت سکوت 
 Mute a user in chat
 *user is kicked if they talk
 *only owners can mute | mods and owners can unmute
 
-!mutelist  چیز هایی که در حالت سکوت هستند.
+!mutelist                       چیز هایی که در حالت سکوت هستند.
 Returns list of muted users in chat
 
-!newlink  لینک جدید
+!newlink                                               لینک جدید
 create/revoke your group link
 
-!link  لینک
+!link                                                       لینک
 returns group link
 
-!owner  مدیر اصلی
+!owner                                                 مدیر اصلی
 returns group owner id
 
-!setowner [id]  تنظیم به عنوان مدیر اصلی گروه
+!setowner [id]                    تنظیم به عنوان مدیر اصلی گروه
 Will set id as owner
 
-!setflood [value]  تنظیم حساسیت گروه
+!setflood [value]                              تنظیم حساسیت گروه
 Set [value] as flood sensitivity
 
-!stats   پیام مجازی - اتفاقات جاری در گروه
+!stats                         پیام مجازی - اتفاقات جاری در گروه
 Simple message statistics
 
 !save [value] <text>  ذخیره مقدار چیزی یا متنی "جهت یاد آوری به مدیر " فقط مدیر گروه
 Save <text> as [value]
 
-!get [value]    دریافت مقادیر اسپم و هرزنامه
+!get [value]                         دریافت مقادیر اسپم و هرزنامه
 Returns text of [value]
 
 !clean [modlist|rules|about]   پاکیزه سازی کنترل کننده ها و قوانین و جزئیات
 Will clear [modlist|rules|about] and set it to nil
 
-!res [username]  درباره فرد
+!res [username]                                         درباره فرد
 returns user id
 "!res @username"
 
-!log   اتفاقات و دستورات داده شده به ربات
+!log                            اتفاقات و دستورات داده شده به ربات
 Returns group logs
 
-!banlist   اعضای اخراج شده از گروه
+!banlist                                   اعضای اخراج شده از گروه
 will return group ban list
 
 **You can use "#", "!", or "/" to begin all commands
