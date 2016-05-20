@@ -484,82 +484,81 @@ will return group ban list
 	help_text_super =[[
 TeleTak Command help List
 
-!kick [username|id]                    | kick user frome group 
+!kick [username|id]                    
 
 
-!ban  [username|id]                    | ban user frome group 
+!ban  [username|id]                   
 
 
-!unban [username|id]                   | unban user & remove frome banlist
+!unban [username|id]                   
 
 
-!modlist                               | Moderatores group List
+!modlist                              
 
 
-!promote [username|id]                 | promote to Moderator group "jast owner"
+!promote [username|id]                
 
 
-!demote  [username|id]                 | demote as Moderator group  " jast owner"
+!demote  [username|id]                
 
 
-!kickme  typing "!kickme on GP         | well be leave on the "GP"
+!kickme  typing "!kickme on GP        
 
 
-!lock [links,flood,spam,rtl,...]       | Lock LINKS,FLOOD,SPAM,RTL,...
+!lock [links,flood,spam,rtl,...]       
 
 
-!unlock [links,flood,spam,rtl,...]     | Unlock LINKS,FLOOD,SPAM,RTL,...
+!unlock [links,flood,spam,rtl,...]    
 
 
-!mute [all,chat,photo,gifs]            | typing " !mute all " and Mute thes all < Cilent >
+!mute [all,chat,photo,gifs]           
 
 
-!unmote [all,chat,photo,gifs]          | typing " !unmote all " and unmute thes all 
+!unmote [all,chat,photo,gifs]         
 
 
-!settings                              | Settings & Option group 
+!settings                              
 
 
-!setrules [Text]                       | set rules & cases
+!setrules [Text]                       
 
 
-!setabout [Text]                       | Set about GP
+!setabout [Text]                      
 
 
-!owner                                 | Owner group showdem
+!owner                                 
 
 
-!setowner                              | set as a owner
+!setowner                              
 
 
-!clean [modlist,rules,about]           | clean modlist,rules,about GP
+!clean [modlist,rules,about]           
 
 
-!get "rules,about,time,date,...        | get informatoin Tec 
+!get "rules,about,time,date,...        
 
 
-!stats                                 | history group 
+!stats                                
 
 
-!banlist                               | ban list 
+!banlist                               
 
 
-!link                                  | group link
+!link                                 
 
 
-!newlink                               | creatnew link / revoke last link
+!newlink                               
 
 
-!help                                  | Supergroup Commands TeleTak
+!help                                
 
 
-!muteuser [username|id]                | well be muted the user
+!muteuser [username|id]               
 
 
 about plugins Comming Soon ...
 
-Warning : Anyone Copytight "TELETAKBOT" exploits any of the exclusive rights of copyright without the copyright owner's permission commits copyright infringement.
-And Anyone Copyright Not Allowed. Parageranit Copyright on seen "FBI" police.cyberi 
+TeleTak Team. 
 #Sudo MR.codex
 ]],
   }
