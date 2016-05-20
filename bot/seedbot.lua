@@ -484,53 +484,77 @@ will return group ban list
 	help_text_super =[[
 TeleTak Command help List
 
-!kick [username|id]             | kick user frome group
+!kick [username|id]                    | kick user frome group 
 
-!ban  [username|id]             | ban user frome group 
 
-!unban [username|id]            | unban user & remove frome banlist
+!ban  [username|id]                    | ban user frome group 
 
-!modlist                        | Moderatores group List
 
-!promote [username|id]          | promote to Moderator group "jast owner"
+!unban [username|id]                   | unban user & remove frome banlist
 
-!demote  [username|id]          | demote as Moderator group  " jast owner"
 
-!kickme  typing "!kickme on GP  | well be leave on the "GP"
+!modlist                               | Moderatores group List
 
-!lock [links,flood,spam,rtl,...]| Lock LINKS,FLOOD,SPAM,RTL,...
 
-!unlock [links,flood,spam,rtl,...]| Unlock LINKS,FLOOD,SPAM,RTL,...
+!promote [username|id]                 | promote to Moderator group "jast owner"
 
-!mute [all,chat,photo,gifs]     | typing " !mute all " and Mute thes all < Cilent >
 
-!unmote [all,chat,photo,gifs]   | typing " !unmote all " and unmute thes all 
+!demote  [username|id]                 | demote as Moderator group  " jast owner"
 
-!settings                       | Settings & Option group 
 
-!setrules [Text]                | set rules & cases
+!kickme  typing "!kickme on GP         | well be leave on the "GP"
 
-!setabout [Text]                | Set about GP
 
-!owner                          | Owner group showdem
+!lock [links,flood,spam,rtl,...]       | Lock LINKS,FLOOD,SPAM,RTL,...
 
-!setowner                       | set as a owner
 
-!clean [modlist,rules,about]    | clean modlist,rules,about GP
+!unlock [links,flood,spam,rtl,...]     | Unlock LINKS,FLOOD,SPAM,RTL,...
 
-!get "rules,about,time,date,... | get informatoin Tec 
 
-!stats                          | history group 
+!mute [all,chat,photo,gifs]            | typing " !mute all " and Mute thes all < Cilent >
 
-!banlist                        | ban list 
 
-!link                           | group link
+!unmote [all,chat,photo,gifs]          | typing " !unmote all " and unmute thes all 
 
-!newlink                        | creatnew link / revoke last link
 
-!help                           | Supergroup Commands TeleTak
+!settings                              | Settings & Option group 
 
-!muteuser [username|id]         | well be muted the user
+
+!setrules [Text]                       | set rules & cases
+
+
+!setabout [Text]                       | Set about GP
+
+
+!owner                                 | Owner group showdem
+
+
+!setowner                              | set as a owner
+
+
+!clean [modlist,rules,about]           | clean modlist,rules,about GP
+
+
+!get "rules,about,time,date,...        | get informatoin Tec 
+
+
+!stats                                 | history group 
+
+
+!banlist                               | ban list 
+
+
+!link                                  | group link
+
+
+!newlink                               | creatnew link / revoke last link
+
+
+!help                                  | Supergroup Commands TeleTak
+
+
+!muteuser [username|id]                | well be muted the user
+
 
 about plugins Comming Soon ...
 
