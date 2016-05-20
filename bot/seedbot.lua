@@ -350,6 +350,9 @@ SuperGroup Commands TeleTak bot
 Mute Cerles User
 
 about plugins Comming Soon ...
+--------------------------------------
+Support TeleTak :
+https://telegram.me/joinchat/DHwz2z2yx4kEvHOPFpLPmg
 
 TeleTak Team. 
 #Sudo MR.codex
