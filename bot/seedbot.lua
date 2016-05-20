@@ -278,76 +278,76 @@ Thanks.~ TeleTak ~
 TeleTak Command help List
 
 !kick [username|id]                    
-
+well kick user as a Group
 
 !ban  [username|id]                   
-
+well ban user as a Group
 
 !unban [username|id]                   
-
+unban user | remove as banlist
 
 !modlist                              
-
+Moderator Name List
 
 !promote [username|id]                
-
+Promote User as Moderator 
 
 !demote  [username|id]                
-
+demote User as Moderator
 
 !kickme  typing "!kickme on GP        
-
+leave group
 
 !lock [links,flood,spam,rtl,...]       
-
+Lock links,flood,spam,rtl
 
 !unlock [links,flood,spam,rtl,...]    
-
+unlock links,flood,spam,rtl 
 
 !mute [all,chat,photo,gifs]           
-
+Mute all exampel [ !mute all ] muted all trut
 
 !unmote [all,chat,photo,gifs]         
-
+unmoted all trut
 
 !settings                              
-
+settings & group's option
 
 !setrules [Text]                       
-
+set rules for your Group
 
 !setabout [Text]                      
-
+set about for your Group
 
 !owner                                 
+show owner id 
 
-
-!setowner                              
-
+!setowner [username|id]                             
+set as owner group 
 
 !clean [modlist,rules,about]           
-
+clean trut 
 
 !get "rules,about,time,date,...        
-
+get rules about time date or plugins
 
 !stats                                
-
+stats & history
 
 !banlist                               
-
+Ban list command Group
 
 !link                                 
-
+your Group Link
 
 !newlink                               
-
+create new link | revoke last link
 
 !help                                
-
+SuperGroup Commands TeleTak bot
 
 !muteuser [username|id]               
-
+Mute Cerles User
 
 about plugins Comming Soon ...
 
