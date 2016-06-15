@@ -250,7 +250,7 @@ An advanced administration bot based on TG-CLI written in Lua
 https://github.com/ASDF482/TeleTak
 
 Admins
-@MRcodex [Founder]
+@MasterEnternal [Founder]
 @ali_baaaaax [Developer]
 @POTUS [Developer]
 @seyedan25 [Manager]
@@ -263,19 +263,19 @@ topkecleon
 Vamptacus
 
 Our channels
-@TekeTakEN [English]
-@irTeleTak [persian]
+@EnternalEN [English]
+@irEnternal [persian]
 ]],
     help_text_realm = [[
 Help is Not set. Pok My Sudo @MRcodex
 Thanks. ~ TeleTak ~
 ]],
     help_text = [[
-Help is Not set. Pok My Sudo @MRcodex
-Thanks.~ TeleTak ~
+Help is Not set. Pok My Master : @MasterEnternal
+Thanks.~ Enternal ~
 ]],
 	help_text_super =[[
-TeleTak Command help List
+Enternal Command help List
 
 !kick [username|id]                    
 well kick user as a Group
@@ -349,13 +349,13 @@ SuperGroup Commands TeleTak bot
 !muteuser [username|id]               
 Mute Cerles User
 
-about plugins Comming Soon ...
+More plugins Comming Soon ...
 --------------------------------------
-Support TeleTak :
-https://telegram.me/joinchat/DHwz2z2yx4kEvHOPFpLPmg
+Support Enternal :
+Not Set Pok My Master | @MasterEnternal
 
-TeleTak Team. 
-#Sudo MR.codex
+BlackEnternal Team. 
+#Master ( ~ ! M O S A F E R ! ~ )
 ]],
   }
   serialize_to_file(config, './data/config.lua')
