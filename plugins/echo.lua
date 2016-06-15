@@ -1,6 +1,5 @@
-
 local function run(msg, matches)
-  local text = matches[1]
+  local text = '<code>'..matches[1]..'</code>'
   local b = 1
 
   while b ~= 0 do
@@ -14,7 +13,7 @@ return {
   description = "Simplest plugin ever!",
   usage = "!echo [whatever]: echoes the msg",
   patterns = {
-    "^!echo +(.+)$"
+    "^[/#!]echo +(.+)$"
   }, 
   run = run 
 }
