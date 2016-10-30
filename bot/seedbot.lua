@@ -194,7 +194,7 @@ function load_config( )
     print ("Created new config file: data/config.lua")
     create_config()
   else
-    f:close()
+4    f:close()
   end
   local config = loadfile ("./data/config.lua")()
   for v,user in pairs(config.sudo_users) do
@@ -212,6 +212,15 @@ function create_config( )
     "inrealm",
     "ingroup",
     "inpm",
+    "supergroup",
+    "time",
+    "write",
+    "boob",
+    "rmsg",
+    "short_link",
+    "info",
+    "google",
+    "logo",
     "banhammer",
     "stats",
     "anti_spam",
@@ -226,30 +235,11 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {219559495,0,tonumber(our_id)},--Sudo users
+    sudo_users = {249900391,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
+    about_text = [[ v2 - Open Source
 
-https://github.com/SEEDTEAM/TeleSeed
-
-Our team!
-Alphonse (@Iwals)
-I M /-\ N (@Imandaneshi)
-Siyanew (@Siyanew)
-Rondoozle (@Potus)
-Seyedan (@Seyedan25)
-
-Special thanks to:
-Juan Potato
-Siyanew
-Topkecleon
-Vamptacus
-
-Our channels:
-English: @TeleSeedCH
-Persian: @IranSeed
 ]],
     help_text_realm = [[
 Realm Commands:
