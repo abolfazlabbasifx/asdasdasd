@@ -215,7 +215,7 @@ function create_config( )
     "supergroup",
     "time",
     "write",
-    "boob",
+    "boobs",
     "rmsg",
     "short_link",
     "info",
