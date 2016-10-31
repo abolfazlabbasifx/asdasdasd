@@ -252,27 +252,13 @@ function create_config( )
     },
     sudo_users = {249900391,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Tele Tak v4
-An advanced administration bot based on TG-CLI written in Lua
+    about_text = [[Tele Guard
+Admin
+@AbolfazlAbbasiOfficial
+		
+Channel
+@TeleGuardTM
 
-https://github.com/ASDF482/TeleTak
-
-Admins
-@MasterEnternal [Founder]
-@ali_baaaaax [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@EnternalEN [English]
-@irEnternal [persian]
 ]],
     help_text_realm = [[
 Help is Not set. Pok My Sudo @AbolfazlAbbasiOfficial
