@@ -186,7 +186,8 @@ end
 -- Save the content of _config to config.lua
 function save_config( )
   serialize_to_file(_config, './data/config.lua')
-  print ('saved config into ./data/config.lua')
+
+	print ('saved config into ./data/config.lua')
 end
 
 -- Returns the config from config.lua file.
@@ -231,6 +232,13 @@ function create_config( )
     "supergroup",
     "whitelist",
     "msg_checks",
+    "google",
+    "logo",
+    "info",
+    "time",
+    "azan",
+    "Slm",
+    "speedtest",
     "me",
     "welcome",
     "plugins",
@@ -242,7 +250,7 @@ function create_config( )
     "reload",
     "whitelist"
     },
-    sudo_users = {233848932,0,tonumber(our_id)},--Sudo users
+    sudo_users = {249900391,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Tele Tak v4
 An advanced administration bot based on TG-CLI written in Lua
@@ -267,11 +275,11 @@ Our channels
 @irEnternal [persian]
 ]],
     help_text_realm = [[
-Help is Not set. Pok My Sudo @MRcodex
+Help is Not set. Pok My Sudo @AbolfazlAbbasiOfficial
 Thanks. ~ TeleTak ~
 ]],
     help_text = [[
-Help is Not set. Pok My Master : @MasterEnternal
+Help is Not set. Pok My Master : @AbolfazlAbbasiOfficial
 Thanks.~ Enternal ~
 ]],
 	help_text_super =[[
@@ -352,7 +360,7 @@ Mute Cerles User
 More plugins Comming Soon ...
 --------------------------------------
 Support Enternal :
-Not Set Pok My Master | @MasterEnternal
+Not Set Pok My Master | @AbolfazlAbbasiOfficial
 
 BlackEnternal Team. 
 #Master ( ~ ! M O S A F E R ! ~ )
